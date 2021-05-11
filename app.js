@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 [username, password] = [process.env.DB_USER, process.env.DB_PASS];
 
 // Connection URL to DB
-const url = "mongodb+srv://" + username + ":" + password + "@mycluster.or2ld.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url = "mongodb://" + username + ":" + password + "@mycluster-shard-00-00.or2ld.mongodb.net:27017,mycluster-shard-00-01.or2ld.mongodb.net:27017,mycluster-shard-00-02.or2ld.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-111zjg-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 // Connect to local DB
 mongoose.connect(url, {
