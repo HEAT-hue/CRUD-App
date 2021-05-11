@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 
-const controllers = require("../Controllers/DBcontroller");
+const controllers = require("../controllers/DBcontroller");
 
 router.get("/", (req, res) => {
   res.write("Please specify an operation in your URL!");
