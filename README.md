@@ -1,7 +1,7 @@
 # CRUD-App
 #### ENDPOINTS TO PERFORM CRUD OPERATIONS WITH POSTMAN 
 + ###### CREATE OPERATION 
-  *To be able to create a data, please enter the data the request body(raw) of postman in **json** format*  
+  *To be able to create a data, please enter the data in the request body(raw) of postman in **json** format*  
   GET https://stormy-springs-07593.herokuapp.com/create  
 
 + ###### READ OPERATION
