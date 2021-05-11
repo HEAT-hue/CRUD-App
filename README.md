@@ -10,13 +10,13 @@
   
   ###### READ SPECIFIC DATA  
   Specfic data can only be identified by their **name** 
-  - GET https://stormy-springs-07593.herokuapp.com/read
+  - GET https://stormy-springs-07593.herokuapp.com/read/Emeka
   
 + ###### UPDATE OPERATION
-  GET https://stormy-springs-07593.herokuapp.com/read
+  GET https://stormy-springs-07593.herokuapp.com/update/Emeka
   
 + ###### DELETE OPERATION
-  GET https://stormy-springs-07593.herokuapp.com/read
+  GET https://stormy-springs-07593.herokuapp.com/delete/Emeka
   
  #### SPECIAL NOTES
  All requests are **GET** requests  
