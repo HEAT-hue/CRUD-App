@@ -9,11 +9,14 @@ require("dotenv").config();
 // PORT number
 const PORT = process.env.PORT || 3000;
 
+// DB validation
+[username, password] = [process.env.DB_USER, process.env.DB_PASS]
+
 // Connection URL to DB
-const url = process.env.mongoDB_URL;
+const uri = "mongodb+srv://" + username + ":" + password +  "@mycluster.or2ld.mongodb.net/myFirstDatabase?retryWrites=true&w=majority&ssl=true";
 
 // Connect to local DB
-mongoose.connect(url, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
