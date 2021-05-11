@@ -10,7 +10,7 @@ require("dotenv").config();
 const PORT = process.env.PORT || 3000;
 
 // DB validation
-[username, password] = [process.env.DB_USER, process.env.DB_PASS]
+[username, password] = [process.env.DB_USER, process.env.DB_PASS];
 
 // Connection URL to DB
 const uri = "mongodb+srv://" + username + ":" + password +  "@mycluster.or2ld.mongodb.net/myFirstDatabase?retryWrites=true&w=majority&ssl=true";
