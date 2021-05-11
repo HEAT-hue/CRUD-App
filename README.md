@@ -23,4 +23,4 @@
  **Some data have been created by default**  
  
  ###HEROKU hosted link  
- https://stormy-springs-07593.herokuapp.com/
+ https://stormy-springs-07593.herokuapp.com/read
