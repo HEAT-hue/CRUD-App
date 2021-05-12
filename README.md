@@ -28,8 +28,8 @@
  #### SPECIAL NOTES
  All requests are **GET** requests  
  **Some data have been created by default**  
- **To read, update and delete *any specific data*, add the name of the data/doc at the end of the url with the correct CRUD operation specified**  
- https://stormy-springs-07593.herokuapp.com/  
+ **To read, update and delete *any specific data*, add the CRUD operation with the name of the data at the end of the hosted link**  
+ 
  
  
  
