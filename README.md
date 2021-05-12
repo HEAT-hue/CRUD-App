@@ -23,7 +23,9 @@
   
  #### SPECIAL NOTES
  All requests are **GET** requests  
- **Some data have been created by default**   
+ **Some data have been created by default**  
+ **To read specific data, update and delete data, add the name of the data/doc at the end of the url**
+ 
  
  
  #### HEROKU HOSTED LINK
