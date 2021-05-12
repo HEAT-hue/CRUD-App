@@ -64,22 +64,25 @@ module.exports.update = function(req, res) {
   const queryName = req.params.name;
   const searchQuery = {name: queryName};
 
-  PersonModel.updateOne(searchQuery, req.body, (err, person) => {
+  PersonModel.findOneAndUpdate(searchQuery, req.body, {new: true}, (err, person) => {
     if (err) {
       res.status(500).json({message: err.message});
     }
-    else if (!person.n) {                 // no match found
+    else if (!person) {                 // no match found
       res.json({message: "No person with name: " + queryName + " found!"});
     }
     else {
       res.json({
         message: "Doc: " + (queryName) +  " updated successfully",
-        data: req.body
+        data: {
+          name: person.name,
+          email: person.email,
+          country: person.country
+        }
       });
     }
   });
 };
-
 
 //DELETE OPERATIONS
 module.exports.delete = function(req, res){
