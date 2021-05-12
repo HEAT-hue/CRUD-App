@@ -3,6 +3,7 @@
 + ###### CREATE OPERATION 
   *To be able to create a data, please enter the data in the request body(raw) of postman in **json** format*  
   GET https://stormy-springs-07593.herokuapp.com/create  
+  In the request body you add {"name": "Jod Doe", "email": "Doe@gmail.com", "country": " Nigeria "}
 
 + ###### READ OPERATION
   ###### READ ALL DATA
@@ -13,7 +14,9 @@
   - GET https://stormy-springs-07593.herokuapp.com/read/Emeka
   
 + ###### UPDATE OPERATION
-  GET https://stormy-springs-07593.herokuapp.com/update/Emeka
+  GET https://stormy-springs-07593.herokuapp.com/update/Emeka  
+  
+  In the request body, specify the record you want to update. i.e. {"country": "UK"}
   
 + ###### DELETE OPERATION
   GET https://stormy-springs-07593.herokuapp.com/delete/Emeka
