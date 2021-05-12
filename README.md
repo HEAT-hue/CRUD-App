@@ -34,4 +34,4 @@
  
  
  #### HEROKU HOSTED LINK
- https://stormy-springs-07593.herokuapp.com/read
+ https://stormy-springs-07593.herokuapp.com/
