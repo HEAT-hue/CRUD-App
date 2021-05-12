@@ -1,22 +1,22 @@
 # CRUD-App
 #### ENDPOINTS TO PERFORM CRUD OPERATIONS WITH POSTMAN 
 + ###### CREATE OPERATION 
-  *To be able to create a data, please enter the data the request body(raw) of postman in **json** format*  
-  GET http://hostname/create  
+  *To be able to create a data, please enter the data in the request body(raw) of postman in **json** format*  
+  GET https://stormy-springs-07593.herokuapp.com/create  
 
 + ###### READ OPERATION
   ###### READ ALL DATA
-  - GET http://hostname/read  
+  - GET https://stormy-springs-07593.herokuapp.com/read  
   
   ###### READ SPECIFIC DATA  
   Specfic data can only be identified by their **name** 
-  - GET http://hostname/read/name
+  - GET https://stormy-springs-07593.herokuapp.com/read/Emeka
   
 + ###### UPDATE OPERATION
-  GET http://hostname/update/name
+  GET https://stormy-springs-07593.herokuapp.com/update/Emeka
   
 + ###### DELETE OPERATION
-  GET http://hostname/delete/name
+  GET https://stormy-springs-07593.herokuapp.com/delete/Emeka
   
  #### SPECIAL NOTES
  All requests are **GET** requests  
